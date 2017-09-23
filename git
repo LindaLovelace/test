@@ -35,7 +35,10 @@ You can rename the branch with -mv flag, like this:
 git branch -mv origin master
 
 
+
+git merge test
+
+git rebase master 來將 cat branch 基於 master branch 做 rebase。
+
 GUI
-
-
 $ gitk --all
