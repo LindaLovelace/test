@@ -24,15 +24,31 @@ $
 使用 Curl 通过 Api 管理 Github 的库
 $ curl -u 'LindaLovelace' https://api.github.com/user/repos -d '{"name":"test1"}'
 
+
+
+
 $ git show-ref
+$ git show-ref --heads //列出仓库中所有的头:
+$ git show-ref --heads | cut -d' ' -f2 | grep -v '^refs/heads/master' //使用cut和grep得到"分支-头"(branch-head)部分, 不需要"master":
 
-down vote
-accepted
+
+
+
 From git branch it appears that somehow your local branch name is "origin".
-
 You can rename the branch with -mv flag, like this:
+$ git branch -mv origin master
 
-git branch -mv origin master
+
+
+Pull: 從遠端更新
+
+    $ git pull
+或
+
+    $ git pull origin master
+實際作用是先 git fetch 遠端的 branch，然後與本地端的 branch 做 merge，產生一個 merge commit 節點
+
+
 
 
 
@@ -42,3 +58,14 @@ git rebase master 來將 cat branch 基於 master branch 做 rebase。
 
 GUI
 $ gitk --all
+
+
+
+然后我们就可以查看master中特有的提交:
+
+$ gitk master --not $( git show-ref --heads | cut -d' ' -f2 |
+                grep -v '^refs/heads/master' )
+很明显上面的命令可以有无数种变种; 例如你想查看仓库中所有的分支可达但标签不可达的提交:
+
+$ gitk $( git show-ref --heads ) --not  $( git show-ref --tags )
+(git rev-parse提供了像"--not"之类的"选择提交"语法的解释.)
