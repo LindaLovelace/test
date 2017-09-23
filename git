@@ -13,8 +13,6 @@ error: src refspec master does not match any.
 error: failed to push some refs to 'git@github.com/LindaLovelace/test.git'
 $
 
-
-
 fatal: 'git@github.com/LindaLovelace/test1.git' does not appear to be a git repository
 fatal: Could not read from remote repository.
 
@@ -25,3 +23,19 @@ $
 
 使用 Curl 通过 Api 管理 Github 的库
 $ curl -u 'LindaLovelace' https://api.github.com/user/repos -d '{"name":"test1"}'
+
+$ git show-ref
+
+down vote
+accepted
+From git branch it appears that somehow your local branch name is "origin".
+
+You can rename the branch with -mv flag, like this:
+
+git branch -mv origin master
+
+
+GUI
+
+
+$ gitk --all
