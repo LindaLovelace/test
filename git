@@ -5,6 +5,10 @@ $ git init
 fatal: remote origin already exists.
 $ git remote rm origin
 
+git remote add origin https://github.com/LindaLovelace/test1.git
+git push -u origin master
+
+
 error: src refspec master does not match any.
 error: failed to push some refs to 'git@github.com/LindaLovelace/test.git'
 $
@@ -18,3 +22,6 @@ Please make sure you have the correct access rights
 and the repository exists.
 $
 
+
+使用 Curl 通过 Api 管理 Github 的库
+$ curl -u 'LindaLovelace' https://api.github.com/user/repos -d '{"name":"test1"}'
