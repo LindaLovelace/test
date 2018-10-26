@@ -1,1 +1,43 @@
 Windows
+DISKPART
+  ACTIVE      - 將選取的磁碟分割標記為使用中。
+  ADD         - 新增一個鏡像到一個簡單磁碟區。
+  ASSIGN      - 指派一個磁碟機代號或掛接點到選擇的磁碟區。
+  ATTRIBUTES  - 操縱磁碟區或磁碟屬性。
+  ATTACH      - 連結虛擬磁碟檔案。
+  AUTOMOUNT   - 啟用和停用基本磁碟區的自動掛接。
+  BREAK       - 中斷一個鏡像組。
+  CLEAN       - 從磁碟上清除設定資訊或所有資訊。
+  COMPACT     - 嘗試縮小檔案的實體大小。
+  CONVERT     - 轉換不同的磁碟格式。
+  CREATE      - 建立一個磁碟區、磁碟分割或虛擬磁碟。
+  DELETE      - 刪除一個物件。
+  DETAIL      - 提供一個物件的詳細資料。
+  DETACH      - 中斷連結虛擬磁碟檔案。
+  EXIT        - 結束 DiskPart。
+  EXTEND      - 延伸一個磁碟區。
+  EXPAND      - 擴充虛擬磁碟上的最大可用空間。
+  FILESYSTEMS - 顯示磁碟區上目前及受支援的檔案系統。
+  FORMAT      - 格式化磁碟區或磁碟分割。
+  GPT         - 指派屬性給選取的 GPT 磁碟分割。
+  HELP        - 顯示一個命令清單。
+  IMPORT      - 匯入磁碟群組。
+  INACTIVE    - 將選取的磁碟分割標記為非使用中。
+  LIST        - 顯示物件的清單。
+  MERGE       - 合併子磁碟與其父系。
+  ONLINE      - 把目前標記為離線的物件設成連線。
+  OFFLINE     - 把目前標記為連線的物件設成離線。
+  RECOVER     - 重新整理選取封裝中所有磁碟的狀態。
+                嘗試在無效封裝中的磁碟復原，並重新同步具有過時網狀
+                磁碟區或同位檢查資料的鏡像磁碟區與 RAID5 磁碟區。
+  REM         - 不做任何事。這是用來註解指令碼。
+  REMOVE      - 移除磁碟機代號或掛接點指派。
+  REPAIR      - 用失敗成員修復 RAID-5 磁碟區。
+  RESCAN      - 重新掃描電腦來尋找磁碟和磁碟區。
+  RETAIN      - 在簡單磁碟區下放置一個保存磁碟分割。
+  SAN         - 顯示或設定目前開機之 OS 的 SAN 原則。
+  SELECT      - 移動焦點到物件。
+  SETID       - 變更磁碟分割類型。
+  SHRINK      - 縮小有選取的磁碟區。
+  UNIQUEID    - 顯示或設定 GUID 磁碟分割表格 (GPT) 識別碼或
+                磁碟的主開機記錄 (MBR) 簽章。
