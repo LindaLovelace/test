@@ -41,3 +41,14 @@ DISKPART
   SHRINK      - 縮小有選取的磁碟區。
   UNIQUEID    - 顯示或設定 GUID 磁碟分割表格 (GPT) 識別碼或
                 磁碟的主開機記錄 (MBR) 簽章。
+
+
+SELECT DISK=0
+CREATE PARTITION PRIMARY
+ASSIGN LETTER=E
+SELECT PARTITION=1
+FORMAT FS=NTFS LABEL="New Volume" QUICK
+EXIT 
+
+net
+  net use X: \\pc17020131\share_rw
