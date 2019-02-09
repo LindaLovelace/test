@@ -27,6 +27,11 @@ Hi LindaLovelace! You've successfully authenticated, but GitHub does not provide
 https://github.com/LindaLovelace/test.git
 
 
+git config --global user.email "wesleyallangibson@hotmail.com"
+git config --global user.name "Wei-Chia.Su"
+git commit -m '20190209'[master c4a70fd] 20190209
+git config --global credential.helper store
+
 
 
 
