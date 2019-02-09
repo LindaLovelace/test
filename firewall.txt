@@ -1,0 +1,6 @@
+(FTP):/sbin/iptables -I INPUT -p tcp --dport 21 -j ACCEPT            
+(SSH):     /sbin/iptables -I INPUT -p tcp --dport 22 -j ACCEPT               
+(SMTP)/sbin/iptables -I INPUT -p tcp --dport 25 -j ACCEPT                
+(HTTP)/sbin/iptables -I INPUT -p tcp --dport 80 -j ACCEPT    
+(MSSQL)/sbin/iptables -I INPUT -p tcp --dport 1433 -j ACCEPT 
+(MYSQL) /sbin/iptables -I INPUT -p tcp --dport 3306 -j ACCEPT

@@ -1,0 +1,4 @@
+sudo systemctl restart proftpd
+
+/dev/sda 	/home/pi/sda	auto	noauto,uid=ftp,umask=022	0	0
+

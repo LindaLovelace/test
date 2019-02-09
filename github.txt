@@ -1,0 +1,35 @@
+# Checking for existing SSH keys
+ls -al ~/.ssh/
+
+# Generating a new SSH key
+ssh-keygen  -t rsa -C "wesleyallangibson@hotmail.com"
+#ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+# Adding your SSH key to the ssh-agent
+eval "$(ssh-agent -s)" --> Agent pid 59566
+ssh-add ~/.ssh/id_rsa
+
+# Copy  ~/.ssh/id_rsa.pub context to 'Add SSH Key'"
+
+root@raspberrypi:/home/pi/workspace/github# ssh -T git@github.com
+The authenticity of host 'github.com (192.30.253.113)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+Hi LindaLovelace! You've successfully authenticated, but GitHub does not provide shell access.
+
+
+##    $ git remote add origin git@github.com:your_account/your_repository.git
+##git remote add origin git@github.com:LindaLovelace/linux.git
+##    $ git push -u origin master
+##之後只需要輸入
+##    $ git push
+https://github.com/LindaLovelace/test.git
+
+
+
+
+
+
+
+

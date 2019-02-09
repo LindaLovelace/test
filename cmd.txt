@@ -1,0 +1,18 @@
+#Scan For Bad Blocks
+badblock -wsv -o badblocks.txt /dev/sdb
+
+#Repair
+fsck.ext3 -l /opt/ badblock.txt /dev/sdb
+
+#Create New Device
+fdisk /dev/sdb
+
+#Format
+mkfs -t ext4 /dev/sdc1
+mke2fs -j -i badblock.txt /dev/sdb
+
+#Mount
+mount 
+
+#
+df -h 

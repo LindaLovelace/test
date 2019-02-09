@@ -1,0 +1,2 @@
+mount -t smbfs -o uid=ftp,gid=ftp //Anthony-xp/incoming /opt/ftp/incoming 
+mount -o uid=ftp,gid=ftp /dev/sda /home/pi/sda

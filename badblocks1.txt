@@ -1,0 +1,113 @@
+Checking for bad blocks in non-destructive read-write mode
+From block 0 to 488386583
+Checking for bad blocks (non-destructive read-write test)
+Testing with random pattern:   0.00% done, 0:04 elapsed. (0/0/0 errors)
+
+
+  0.01% done, 0:05 elapsed. (0/0/0 errors)
+
+
+  0.02%     1.59% done, 22:57 elapsed. (0/0/0 errors)
+
+  1.60% done, 22:58 elapsed. (0/0/0 errors)
+  1.60% done, 22:59 elapsed. (0/0/0 errors)
+
+  1.60% done, 23:00 elapsed. (0/0/0 errors)
+
+
+  1.60% done, 23:01 elapsed. (0/0/0 errors)
+
+
+
+
+  1.60%   1.70%   1.70% ^[[Z  2.31% done, 32:54 elapsed. (0/0/0 errors)
+
+
+
+  6.04% done, 1:23:51 elapsed. (0/0/0 errors)
+  7.90% done, 1:50:16 elapsed. (0/0/0 errors)
+
+  7.90% done, 1:50:17 elapsed. (0/0/0 errors)
+
+ 10.19% done, 2:22:19 elapsed. (0/0/0 errors)
+
+
+
+134554164one, 6:20:00 elapsed. (0/0/0 errors)
+134554165one, 6:20:03 elapsed. (1/0/0 errors)
+134554166one, 6:20:06 elapsed. (2/0/0 errors)
+134554167one, 6:20:08 elapsed. (3/0/0 errors)
+134554216one, 6:20:43 elapsed. (4/0/0 errors)
+134554264one, 6:21:31 elapsed. (5/0/0 errors)
+134554265one, 6:21:34 elapsed. (6/0/0 errors)
+134554266one, 6:21:37 elapsed. (7/0/0 errors)
+134554267one, 6:21:39 elapsed. (8/0/0 errors)
+134554272one, 6:21:49 elapsed. (9/0/0 errors)
+134554273one, 6:21:54 elapsed. (10/0/0 errors)
+134554274one, 6:21:58 elapsed. (11/0/0 errors)
+134554275one, 6:22:03 elapsed. (12/0/0 errors)
+134554296one, 6:22:20 elapsed. (13/0/0 errors)
+134554300one, 6:22:29 elapsed. (14/0/0 errors)
+134554301one, 6:22:32 elapsed. (15/0/0 errors)
+134554302one, 6:22:34 elapsed. (16/0/0 errors)
+134554303one, 6:22:37 elapsed. (17/0/0 errors)
+134554336one, 6:23:04 elapsed. (18/0/0 errors)
+134554337one, 6:23:08 elapsed. (19/0/0 errors)
+134554338one, 6:23:11 elapsed. (20/0/0 errors)
+134554339one, 6:23:14 elapsed. (21/0/0 errors)
+134554352one, 6:23:23 elapsed. (22/0/0 errors)
+134554353one, 6:23:26 elapsed. (23/0/0 errors)
+134554354one, 6:23:28 elapsed. (24/0/0 errors)
+134554355one, 6:23:31 elapsed. (25/0/0 errors)
+134554364one, 6:23:42 elapsed. (26/0/0 errors)
+134554365one, 6:23:46 elapsed. (27/0/0 errors)
+134554366one, 6:23:49 elapsed. (28/0/0 errors)
+134554367one, 6:23:52 elapsed. (29/0/0 errors)
+215500760one, 10:07:24 elapsed. (30/0/0 errors)
+215500761one, 10:07:26 elapsed. (31/0/0 errors)
+215500762one, 10:07:29 elapsed. (32/0/0 errors)
+215500763one, 10:07:32 elapsed. (33/0/0 errors)
+216195624one, 10:09:42 elapsed. (34/0/0 errors)
+216197800one, 10:09:50 elapsed. (35/0/0 errors)
+216197801one, 10:09:53 elapsed. (36/0/0 errors)
+216197802one, 10:09:56 elapsed. (37/0/0 errors)
+216197803one, 10:09:58 elapsed. (38/0/0 errors)
+216201564one, 10:10:05 elapsed. (39/0/0 errors)
+216201565one, 10:10:08 elapsed. (40/0/0 errors)
+216201566one, 10:10:11 elapsed. (41/0/0 errors)
+216201567one, 10:10:13 elapsed. (42/0/0 errors)
+394175681one, 18:26:57 elapsed. (43/0/0 errors)
+394175682one, 18:27:00 elapsed. (44/0/0 errors)
+394175683one, 18:27:02 elapsed. (45/0/0 errors)
+394977756one, 18:29:34 elapsed. (46/0/0 errors)
+394977757one, 18:29:36 elapsed. (47/0/0 errors)
+394977758one, 18:29:41 elapsed. (48/0/0 errors)
+394977759one, 18:29:44 elapsed. (49/0/0 errors)
+394979440one, 18:29:52 elapsed. (50/0/0 errors)
+394979441one, 18:29:57 elapsed. (51/0/0 errors)
+394979442one, 18:29:59 elapsed. (52/0/0 errors)
+394979443one, 18:30:02 elapsed. (53/0/0 errors)
+394981792one, 18:30:11 elapsed. (54/0/0 errors)
+394981793one, 18:30:13 elapsed. (55/0/0 errors)
+394981794one, 18:30:16 elapsed. (56/0/0 errors)
+394981795one, 18:30:19 elapsed. (57/0/0 errors)
+395965716one, 18:33:24 elapsed. (58/0/0 errors)
+395965717one, 18:33:26 elapsed. (59/0/0 errors)
+395965718one, 18:33:29 elapsed. (60/0/0 errors)
+395965719one, 18:33:32 elapsed. (61/0/0 errors)
+395983644one, 18:33:56 elapsed. (62/0/0 errors)
+395983645one, 18:33:59 elapsed. (63/0/0 errors)
+395983646one, 18:34:02 elapsed. (64/0/0 errors)
+395983647one, 18:34:05 elapsed. (65/0/0 errors)
+395985888one, 18:34:11 elapsed. (66/0/0 errors)
+395985889one, 18:34:14 elapsed. (67/0/0 errors)
+395985890one, 18:34:16 elapsed. (68/0/0 errors)
+395985891one, 18:34:19 elapsed. (69/0/0 errors)
+395992272one, 18:34:27 elapsed. (70/0/0 errors)
+398831524one, 18:43:11 elapsed. (71/0/0 errors)
+398831525one, 18:43:14 elapsed. (72/0/0 errors)
+398831526one, 18:43:17 elapsed. (73/0/0 errors)
+398831527one, 18:43:19 elapsed. (74/0/0 errors)
+done                                                 
+Pass completed, 75 bad blocks found. (75/0/0 errors)
+
